@@ -1,0 +1,14 @@
+# Large dataset folders — DO NOT PUSH
+Children-Dataset/
+Children-Dataset.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+faceenv/
+safeenv/
+
+# DeepFace downloaded weights
+~/.deepface/
