@@ -51,6 +51,7 @@ Highlights:
 Usage:
 
 You can load and use the final JSON database in any programming language. Example in Python:
+```
 import json
 
 with open("final_database.json", "r") as f:
