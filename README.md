@@ -66,22 +66,6 @@ print(data[0]['metadata'])
 print(data[0]['embedding'])
 ```
 
-Here is a **clear, refined, and logical roadmap** for your missing-child detection project, plus a polished **project overview** based on everything you’ve explained and everything we have done so far.
-
-This will help you organize the next phase and can be placed in your README or project documentation.
-
----
-
-# Project Overview (Refined)
-
-SafeSight is an AI-driven system designed to assist in identifying missing children using facial recognition and a structured database. The goal is to build an automated pipeline that detects missing children from live CCTV feeds, public images, or manual uploads and alerts the appropriate authorities.
-
-Since real missing-child datasets are sensitive and hard to access, the project begins by constructing a synthetic but realistic database. This includes collecting images, generating metadata (such as names, age, gender, labels), producing facial embeddings, and storing everything in a clean JSON database. This database acts as the “ground truth” reference for the AI model.
-
-The long-term goal is to deploy an end-to-end detection system that compares incoming faces against this database in real-time and sends automated notifications to the nearest police station if a match is detected.
-
----
-
 # Logical Next Steps (Fine-Tuned Roadmap)
 
 Below is the refined and structured plan for what you should do next.
@@ -262,13 +246,3 @@ Later, you can integrate:
 9. Integrate with real-time video input (future upgrade)
 
 ---
-
-If you want, I can also create:
-
-✓ a flowchart image showing the whole system
-✓ an architecture diagram
-✓ a feature list for your README
-✓ a roadmap table
-✓ project logo (image generation)
-
-Just tell me what to generate next.
